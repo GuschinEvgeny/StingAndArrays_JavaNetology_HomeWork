@@ -43,7 +43,7 @@ public class SumSales {
     }
 
     public int lowerAverageSales(long[] salesStat) {
-        int aveSum = (int) averageSumm(salesStat);
+        double aveSum =  averageSumm(salesStat);
         int countArr = salesStat.length; // count quantity of month
         int lowMonth = 0;
         for (int i = 0; i < countArr; i++) {
@@ -55,7 +55,7 @@ public class SumSales {
     }
 
     public int overAverageSales(long[] salesStat) {
-        int aveSum = (int) averageSumm(salesStat);
+        double aveSum = averageSumm(salesStat);
         int countArr = salesStat.length; // count quantity of month
         int upMonth = 0;
         for (int i = 0; i < countArr; i++) {
